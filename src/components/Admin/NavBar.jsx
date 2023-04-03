@@ -5,7 +5,7 @@
 
 import Links from './Links';
 import { useEffect } from 'react';
-import { useNavigate, Link, useLocation } from 'react-router-dom ';
+import { useNavigate, useLocation } from 'react-router-dom';
 
 import { useSendLogoutMutation } from '../../features/auth/authApiSlice';
 
